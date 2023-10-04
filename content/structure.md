@@ -8,19 +8,19 @@ nav_order: 6
 
 1.  In RStudio, click *File \> New File \> Shiny Web App*
 
-![](images/new_shiny_app.png)
+![](images/new_shiny_app.png){width="380"}
 
 2.  Once you're selected to create a new Shiny app, this window will pop up, prompting you to name the app. Choose a descriptive name if possible, then click *Create*.
 
-![](images/name_shiny_app.png)
+![](images/name_shiny_app.png){width="313"}
 
 3.  After creating the new app, the script on the left will be pre-loaded. This is a chance for you to look at the structure of Shiny app and play around with one. To run the pre-loaded app, click the *Run App* button.
 
-![](images/run_app.png)
+![](images/run_app.png){width="571"}
 
 4.  Now that you have ran the app, you should see the Shiny app in a new window.
 
-![](images/default_app.png){width="401"}
+![](images/default_app.png){width="282"}
 
 ### Parts of the Shiny App
 
@@ -37,6 +37,30 @@ Have a look at the pre-loaded app code. The code has distinct parts.
 ### Parts of the ui
 
 ![](images/ui.png){width="472"}
+
+```{r}
+ui <- fluidPage(
+
+    # Application title
+    titlePanel("Old Faithful Geyser Data"),
+
+    # Sidebar with a slider input for number of bins 
+    sidebarLayout(
+        sidebarPanel(
+            sliderInput("bins",
+                        "Number of bins:",
+                        min = 1,
+                        max = 50,
+                        value = 30)
+        ),
+
+        # Show a plot of the generated distribution
+        mainPanel(
+           plotOutput("distPlot")
+        )
+    )
+)
+```
 
 In the pre-loaded example, the ui is a `fluidPage` type. Within the `fluidPage`, we have three sections: the `titlePannel`, the `sidebar`, and the `mainPannel`.
 
