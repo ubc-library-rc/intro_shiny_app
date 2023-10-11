@@ -4,7 +4,7 @@ title: Building the app
 nav_order: 7
 ---
 
-### Build your own app
+# Build your own app
 
 Got to the library GitHub to download:
 
@@ -12,9 +12,9 @@ a) template script that we will work on together <https://github.com/ubc-library
 
 b) a script that is filled out already (we are building to this) <https://github.com/ubc-library-rc/intro_shiny_app/blob/main/shiny_app_practice/app_filled_out.R>
 
-![](images/download_script.png){width="291"}
+![](images/download_script.png)
 
-### After building your app...
+# After building your app...
 
 Don't forget to test your app with `run app` and publish the app with the blue `publish` button! Publishing take a bit of time (\~30 min) depending on the size of the app and the data set being uploaded along with the app build.
 
@@ -24,4 +24,4 @@ Don't forget to test your app with `run app` and publish the app with the blue `
 
 Posit also provides basic app analytics, so you can see how popular your app is.
 
-![](images/app_analytics.png){width="347"}
+![](images/app_analytics.png)
