@@ -3,8 +3,9 @@ layout: default
 title: When to use Shiny apps
 nav_order: 5
 ---
+# Learning when to use Shiny apps
 
-# Contexts where building an app would be useful 
+## Contexts where building an app would be useful 
 
 1.   Data are ready to be public.
 
@@ -13,7 +14,7 @@ nav_order: 5
 3.  Linking multiple other resources to your data.
    
 
-# What are Shiny apps not good at
+## What are Shiny apps not good at
 
 1.  Initial data exploration and cleaning
 
@@ -26,7 +27,7 @@ nav_order: 5
 3.  Being found online! Posit (Shiny) <u>does not index</u> the apps themselves. Promote your app using other strategies!
    
 
-# Example app (Bees)
+## Example app (Bees)
 
 <https://connect.appsilon.com/bee-colony/>
 
