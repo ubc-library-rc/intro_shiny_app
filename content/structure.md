@@ -4,7 +4,7 @@ layout: default
 nav_order: 6
 ---
 
-### How to Open the Shiny Web App Script
+## How to Open the Shiny Web App Script
 
 1.  In RStudio, click *File \> New File \> Shiny Web App*
 
@@ -22,7 +22,7 @@ nav_order: 6
 
 ![](images/default_app.png)
 
-### Parts of the Shiny App
+## Parts of the Shiny App
 
 Shiny apps have two parts. The `ui` (user interface) and the `server` (the computing behind the scenes).
 
@@ -34,7 +34,7 @@ Have a look at the pre-loaded app code. The code has distinct parts.
 
 3.  At the end, the `shinyApp(ui = ui , server = server)` is what allows you to run the app.
 
-### Parts of the ui
+## Parts of the ui
 
 ![](images/ui.png)
 
@@ -52,7 +52,7 @@ The `sidebar` contains multiple sections:
 
 The `mainPannel` contains a single section, `plotOutput`. This tell the Shiny app to plot the output of the `distPlot` (the histogram in the app), which is generated in the server.
 
-### Parts of the server
+## Parts of the server
 
 ![](images/server.png)
 
