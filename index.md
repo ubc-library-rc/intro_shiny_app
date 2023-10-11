@@ -19,9 +19,9 @@ At the end of this workshop, you will:
 
 | 0:00 | Welcome and using Zoom|
 | 0:05 | Introduction |  
-| 0:15 | When to use Shiny apps |
-| 0:30 | Shiny app structure |   
-| 0:45 | Practice app build |
+| 0:10 | When to use Shiny apps |
+| 0:20 | Shiny app structure |   
+| 0:30 | Practice app build |
 | 1:00 | Wrap-up and Discussion |
 
 ## Resources
