@@ -6,14 +6,14 @@ nav_order: 1
 
 ## Note: this workshop is in development and not yet complete.
 
-Description...
+This workshop teaches basic information about when to use Shiny apps and how to build them in R.
 
 ## Learning objectives
 
-At the end of this workshop, you will be able to:
-1.
-2.
-3.
+At the end of this workshop, you will:
+1. Understand what Shiny apps are and when to use them
+2. Understand the structure of Shiny apps
+3. Have gained initial experience building a Shiny app in R
 
 ## Schedule
 
