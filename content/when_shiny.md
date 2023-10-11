@@ -22,13 +22,13 @@ nav_order: 5
 
 2.  Any pre-publication data analysis.
 
-3.  Being found online! Posit (Shiny) [does not index]{.underline} the apps themselves. Need to promote your app using other strategies.
+3.  Being found online! Posit (Shiny) <u>does not index</u> the apps themselves. Promote your app using other strategies!
 
 ### Example app (Bees)
 
 <https://connect.appsilon.com/bee-colony/>
 
-![](images/bee_shiny_app.png){width="396"}
+![](images/bee_shiny_app.png)
 
 This app has 3 different graphs that changed based on user input from three different drop down menus.
 
