@@ -4,7 +4,9 @@ layout: default
 nav_order: 6
 ---
 
-# How to Open the Shiny Web App Script
+# Learning About Shiny App Structure 
+
+## How to Open the Shiny Web App Script
 
 1.  In RStudio, click *File \> New File \> Shiny Web App*
 
@@ -26,7 +28,7 @@ width=600 />
 <img src=images/default_app.png
 width=500 />
 
-# Parts of the Shiny App
+## Parts of the Shiny App
 
 Shiny apps have two parts. The `ui` (user interface) and the `server` (the computing behind the scenes).
 
