@@ -19,12 +19,10 @@ b) a script that is filled out already (we are building to this) <https://github
 ## After building your app...
 
 Don't forget to test your app with `run app` and publish the app with the blue `publish` button! Publishing take a bit of time (\~30 min) depending on the size of the app and the data set being uploaded along with the app build.
-<img src=images/last_steps.png
-width=500 />
+![](images/last_steps.png)
 
 **Note**. Posit hosts Shiny apps and that is where you will be publish your app. You can make a Posit account or use your Google, GitHub, or Clever account. We recommend logging in with GitHub!
 
 Posit also provides basic app analytics, so you can see how popular your app is.
 
-<img src=images/app_analytics.png
-width=500 />
+![](images/app_analytics.png)
