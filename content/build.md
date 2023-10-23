@@ -14,7 +14,7 @@ Work on one part at a time (alternate between ui and server when needed) and see
 
 Drawing the app layout (see below) really helps with code organization and remembering what parts are important to you. This is a simple example, but with more complex apps, you could start adding more information to the drawing including, what the parts are called (e.g. corrplot in the example we will build today).
 
-![](images/PXL_20231023_181802868.jpg){width="346"}
+![](images/PXL_20231023_181802868.jpg)
 
 ## Example app practice
 
