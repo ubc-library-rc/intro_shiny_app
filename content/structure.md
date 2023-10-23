@@ -8,21 +8,22 @@ nav_order: 6
 
 ## How to Open the Shiny Web App Script
 
-1.  In RStudio, click *File \> New File \> Shiny Web App*
+In RStudio, click *File \> New File \> Shiny Web App*
 
 ![](images/new_shiny_app.png)
 
-2.  Once you're selected to create a new Shiny app, this window will pop up, prompting you to name the app. Choose a descriptive name if possible, then click *Create*.
+Once you're selected to create a new Shiny app, this window will pop up, prompting you to name the app. Choose a descriptive name if possible, then click *Create*.
 
 ![](images/name_shiny_app.png)
 
-3.  After creating the new app, the script on the left will be pre-loaded. This is a chance for you to look at the structure of Shiny app and play around with one. To run the pre-loaded app, click the *Run App* button.
+After creating the new app, the script on the left will be pre-loaded. This is a chance for you to look at the structure of Shiny app and play around with one. To run the pre-loaded app, click the *Run App* button.
 
 ![](images/run_app.png)
 
-4.  Now that you have ran the app, you should see the Shiny app in a new window.
+Now that you have ran the app, you should see the Shiny app in a new window.
 
 ![](images/default_app.png)
+
 
 ## Parts of the Shiny App
 
