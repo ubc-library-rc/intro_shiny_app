@@ -4,8 +4,6 @@ title: Outline
 nav_order: 1
 ---
 
-## Note: this workshop is in development and not yet complete.
-
 This workshop teaches basic information about when to use Shiny apps and how to build them in R.
 
 ## Learning objectives
