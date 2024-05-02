@@ -11,24 +11,33 @@ The goal of this section is to orient ourselves within the structure of RShiny a
 
 In RStudio, click *File \> New File \> Shiny Web App*
 
-![](images/new_shiny_app.png)
+<div style="margin-left: 5%; margin-top: 20px; margin-bottom: 40px">
+<img src="images/new_shiny_app.png" alt="new app" width="50%"/>
+</div>
+
 
 Once you're selected to create a new Shiny app, this window will pop up, prompting you to name the app. Choose a descriptive name if possible, then click *Create*.
 
-![](images/name_shiny_app.png)
+<div style="margin-left: 5%; margin-top: 20px; margin-bottom: 40px">
+<img src="images/name_shiny_app.png" alt="new app name" width="50%"/>
+</div>
 
 ## How to Run an RShiny app
 
 After creating the new app, the script on the left will be pre-loaded. This is a chance for you to look at the structure of Shiny app and play around with one. To run the pre-loaded app, click the *Run App* button.
 
-![](images/run_app.png)
+<div style="margin-left: 5%; margin-top: 20px; margin-bottom: 40px">
+<img src="images/run_app.png" alt="run app" width="60%"/>
+</div>
+
 
 ## Time to explore the RShiny Example
 
 Now that you have ran the app, you should see the Shiny app in a new window.
 
-![](images/default_app.png)
-
+<div style="margin-left: 5%; margin-top: 20px; margin-bottom: 40px">
+<img src="images/default_app.png" alt="default app" width="50%"/>
+</div>
 
 ## Parts of the Shiny App
 
