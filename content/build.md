@@ -40,10 +40,11 @@ b)  <a href="https://github.com/ubc-library-rc/intro_shiny_app/blob/main/shiny_a
 
 ## After building your app...
 
-Don't forget to test your app with `run app` and publish the app with the blue `publish` button! Publishing take a bit of time (~30 min) depending on the size of the app and the data set being uploaded along with the app build. 
+Don't forget to test your app with the green `run app` button and publish the app with the blue `publish` button! 
+Publishing takes a bit of time (~30 min) depending on the size of the app and the data set being uploaded along with the app build. 
 
 <div style="margin-left: 5%; margin-top: 20px; margin-bottom: 40px">
-<img src="images/last_steps.png" alt="publish" width="90%"/>
+<img src="images/run_and_publish.png" alt="publish" width="90%"/>
 </div>
 
 **Note**. Posit hosts Shiny apps and that is where you will be publish your app. You can make a Posit account or use your Google, GitHub, or Clever account. We recommend logging in with GitHub!
