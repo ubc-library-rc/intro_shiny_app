@@ -29,10 +29,10 @@ See how this app has the same layout as the drawing above?
 
 Go to the library GitHub to download:
 
-a)  <a href="https://github.com/ubc-library-rc/intro_shiny_app/blob/main/shiny_app_practice/app_partial_build.R" target="_blank">Template script</a> that we will work on together.
+1.  The <a href="https://github.com/ubc-library-rc/intro_shiny_app/blob/main/shiny_app_practice/app_partial_build.R" target="_blank">Template script</a> that we will work on together.
 
 
-b)  <a href="https://github.com/ubc-library-rc/intro_shiny_app/blob/main/shiny_app_practice/app_filled_out.R" target="_blank">The script that is filled out already</a>. We are building to this end goal.
+2.  <a href="https://github.com/ubc-library-rc/intro_shiny_app/blob/main/shiny_app_practice/app_filled_out.R" target="_blank">The script that is filled out already</a>. We are building to this end goal.
 
 <div style="margin-left: 5%; margin-top: 20px; margin-bottom: 40px">
 <img src="images/download_script.png" alt="download" width="90%"/>
