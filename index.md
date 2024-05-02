@@ -7,6 +7,7 @@ nav_order: 1
 This workshop teaches basic information about when to use Shiny apps and how to build them in R.
 
 On this image, please use the annotate function to indicate your level of experience with RShiny apps. If annotate does not work, feel free to just use the chat. 
+<img src="images/alignment_chart.png" width="400"/>
 
 ## Learning objectives
 
