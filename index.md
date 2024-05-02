@@ -3,15 +3,17 @@ layout: default
 title: Outline
 nav_order: 1
 ---
-
+# Workshop introduction
 This workshop teaches basic information about when to use Shiny apps and how to build them in R.
+
+On this image, please use the annotate function to indicate your level of experience with RShiny apps. If annotate does not work, feel free to just use the chat. 
 
 ## Learning objectives
 
 At the end of this workshop, you will:
 1. Understand what Shiny apps are and when to use them
 2. Understand the structure of Shiny apps
-3. Have gained initial experience building a Shiny app in R
+3. Gain initial experience building a Shiny app in R
 
 ## Schedule
 
