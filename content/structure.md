@@ -5,6 +5,7 @@ nav_order: 6
 ---
 
 # Learning About Shiny App Structure 
+The goal of this section is to orient ourselves within the structure of RShiny apps.
 
 ## How to Open the Shiny Web App Script
 
