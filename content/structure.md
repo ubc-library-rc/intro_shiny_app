@@ -17,9 +17,13 @@ Once you're selected to create a new Shiny app, this window will pop up, prompti
 
 ![](images/name_shiny_app.png)
 
+## How to Run an RShiny app
+
 After creating the new app, the script on the left will be pre-loaded. This is a chance for you to look at the structure of Shiny app and play around with one. To run the pre-loaded app, click the *Run App* button.
 
 ![](images/run_app.png)
+
+## Time to explore the RShiny Example
 
 Now that you have ran the app, you should see the Shiny app in a new window.
 
@@ -34,9 +38,12 @@ Have a look at the pre-loaded app code. The code has distinct parts.
 
 1.  Loads the Shiny app with `library(Shiny)` to tell R that we are making a Shiny app.
 
-2.  Has the `ui` and `Server` sections of the app.
+2.  Has the `ui` and `server` sections of the app.
 
 3.  At the end, the `shinyApp(ui = ui , server = server)` is what allows you to run the app.
+
+### Why do the different parts matter?
+Different parts of code belong in different parts of the app. The ui is the app layout peice while the serve is the actual computing part that responds to use imput.
 
 ### Parts of the ui
 
@@ -69,3 +76,7 @@ The first thing to notice in the server is that it is built as a function
     -   You can figure this out by looking at the `bins <- seq(min(x), max(x), length.out = input$bins + 1)` line in the server. This line sets the number of `bins` for the `distPlot`.
 
 -   The output is the plot, `distPlot.` Both of these elements (`bins` and `distPlot`) are in the `ui`. This is how the function `server` connects to the `ui`.
+
+## Concept check in
+Do you remeber the difference between the ui and the server? Put your answer in the chat.
+
