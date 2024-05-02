@@ -4,7 +4,7 @@ title: Outline
 nav_order: 1
 ---
 # Workshop introduction
-This workshop teaches basic information about when to use Shiny apps and how to build them in R. What is your level of experience with RShiny apps? 
+This workshop teaches basic information about when to use Shiny apps and how to build them in R. What is <a href="https://github.com/ubc-library-rc/intro_shiny_app/blob/main/content/images/alignment_chart.png" target="_blank">your level of experience</a> with RShiny apps? 
 
 ## Learning objectives
 
