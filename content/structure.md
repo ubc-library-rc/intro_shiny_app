@@ -16,7 +16,7 @@ In RStudio, click *File \> New File \> Shiny Web App*
 </div>
 
 
-Once you're selected to create a new Shiny app, this window will pop up, prompting you to name the app. Choose a descriptive name if possible, then click *Create*.
+Once you've selected to create a new Shiny app, this window will pop up, prompting you to name the app. Choose a descriptive name if possible, then click *Create*.
 
 <div style="margin-left: 5%; margin-top: 20px; margin-bottom: 40px">
 <img src="images/name_shiny_app.png" alt="new app name" width="50%"/>
@@ -24,7 +24,7 @@ Once you're selected to create a new Shiny app, this window will pop up, prompti
 
 ## How to Run an RShiny app
 
-After creating the new app, the script on the left will be pre-loaded. This is a chance for you to look at the structure of Shiny app and play around with one. To run the pre-loaded app, click the *Run App* button.
+After creating the new app, the script on the left will be pre-loaded. This is a chance for you to look at the structure of a Shiny app and play around with one. To run the pre-loaded app, click the *Run App* button.
 
 <div style="margin-left: 5%; margin-top: 20px; margin-bottom: 40px">
 <img src="images/run_app.png" alt="run app" width="60%"/>
@@ -33,7 +33,7 @@ After creating the new app, the script on the left will be pre-loaded. This is a
 
 ## Time to explore the RShiny Example
 
-Now that you have ran the app, you should see the Shiny app in a new window.
+Now that you have run the app, you should see the Shiny app in a new window.
 
 <div style="margin-left: 5%; margin-top: 20px; margin-bottom: 40px">
 <img src="images/default_app.png" alt="default app" width="50%"/>
@@ -52,25 +52,25 @@ Have a look at the pre-loaded app code. The code has distinct parts.
 3.  At the end, the `shinyApp(ui = ui , server = server)` is what allows you to run the app.
 
 ### Why do the different parts matter?
-Different parts of code belong in different parts of the app. The ui is the app layout peice while the serve is the actual computing part that responds to use imput.
+Different parts of code belong in different parts of the app. The ui is the app layout piece while the server is the actual computing part that responds to use input.
 
 ### Parts of the ui
 
 ![](images/ui.png)
 
-In the pre-loaded example, the ui is a `fluidPage` type. Within the `fluidPage`, we have three sections: the `titlePannel`, the `sidebar`, and the `mainPannel`.
+In the pre-loaded example, the ui is a `fluidPage` type. Within the `fluidPage`, we have three sections: the `titlePanel`, the `sidebar`, and the `mainPanel`.
 
-If we look to the example app, we see that the `titlePannel` is what generates the title of the app.
+If we look to the example app, we see that the `titlePanel` is what generates the title of the app.
 
 The `sidebar` contains multiple sections:
 
 -   The `Number of bins` text is the title of the slider in the app.
 
--   The `min, max,` and `value` arguments are the default values that get pre-loaded into the app when it is run.
+-   The `min`, `max`, and `value` arguments are the default values that get pre-loaded into the app when it is run.
 
--   The remaining argument, bins is what allows the app to be interactive. Find bins in the server section of the app!
+-   The remaining argument, `bins` is what allows the app to be interactive. Find `bins` in the server section of the app!
 
-The `mainPannel` contains a single section, `plotOutput`. This tell the Shiny app to plot the output of the `distPlot` (the histogram in the app), which is generated in the server.
+The `mainPanel` contains a single section, `plotOutput`. This tells the Shiny app to plot the output of the `distPlot` (the histogram in the app), which is generated in the server.
 
 ### Parts of the server
 

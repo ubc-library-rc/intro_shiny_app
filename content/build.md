@@ -6,13 +6,13 @@ nav_order: 7
 
 # Build your own app
 
-# Tips
+## Tips
 
 Have a clear goal in mind!
 
 Work on one part at a time (alternate between ui and server when needed) and see if the app runs before moving to the next section.
 
-Drawing the app layout (see below) really helps with code organization and remembering what parts are important to you. This is a simple example, but with more complex apps, you could start adding more information to the drawing including, what the parts are called (e.g. corrplot in the example we will build today).
+Drawing the app layout (see below) really helps with code organization and remembering what parts are important to you. This is a simple example, but with more complex apps, you could start adding more information to the drawing including, what the parts are called (e.g. `corrplot` in the example we will build today).
 
 <div style="margin-left: 5%; margin-top: 20px; margin-bottom: 60px">
 <img src="images/PXL_20231023_181802868.jpg" alt="outline" width="50%"/>
@@ -47,7 +47,7 @@ Publishing takes a bit of time (~30 min) depending on the size of the app and th
 <img src="images/run_and_publish.png" alt="publish" width="90%"/>
 </div>
 
-**Note**. Posit hosts Shiny apps and that is where you will be publish your app. You can make a Posit account or use your Google, GitHub, or Clever account. We recommend logging in with GitHub!
+**Note**. Posit hosts Shiny apps and that is where you will publish your app. You can make a Posit account or use your Google, GitHub, or Clever account. We recommend logging in with GitHub!
 
 Posit also provides basic app analytics, so you can see how popular your app is.
 
