@@ -10,6 +10,10 @@ Shiny apps are web apps that present data and respond to user input. Therefore, 
 
 The package Shiny is maintained by posit and you can see a great example of a Shiny app on their site <https://shiny.posit.co/> .
 
+### Example: BC Population Estimates & Projections
+
+This Shiny app provides self-serve access to population data across various geographies and age groups. Explore it here: <https://bcstats.shinyapps.io/popApp/>
+
 ### Pre-requisites
 
 Familiarity with R and RStudio.
